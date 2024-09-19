@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Popup Home Page</title>
+        <link rel="stylesheet" href="popup.css">
+        <script src="jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <header>Website Blocker</header>
+        
+        <button id="settings-btn"><a href="manage_links.html">Manage Links</a></button>
+
+        <main>
+            <h1 id="status-display">data box</h1>
+            <div>
+                <button id="block-inf-btn">BLOCK?</button>
+            </div>
+        </main>
+        
+
+        <header id="timed-blocks-header">Timed Blocks</header>
+        <section id="timed-blocks-section">
+            <button id="block-15-btn">15</button>
+            <button id="block-30-btn">30</button>
+            <button id="block-45-btn">45</button>
+            <button id="block-60-btn">60</button>
+        </section>
+
+        <section id="custom-block-section">
+            <label style="display:none;" for="custom-block-input">Custom (in mintues)</label>
+            <input type="number" id="custom-block-input" placeholder="custom block (in mintues)">
+            <input type="submit" value="Submit" id="custom-block-btn">
+        </section>
+
+        <p id="refresh-button-place-holder" style="display:hidden; text-align: center;"></p>
+        
+
+        <script src="popup.js"></script>
+    </body>
+</html>

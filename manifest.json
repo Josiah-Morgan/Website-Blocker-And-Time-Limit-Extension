@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Website Blocker",
+    "description": "blocks websites",
+    "version": "1.0",
+
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "storage"
+    ],
+
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+
+    "icons": {
+        "16": "extension-icons/website_blocker_logo_16x16.png",
+        "32": "extension-icons/website_blocker_logo_32x32.png",
+        "48": "extension-icons/website_blocker_logo_48x48.png",
+        "128": "extension-icons/website_blocker_logo_128x128.png"
+    },
+
+    "action": {
+        "default_icon": {
+            "16": "extension-icons/website_blocker_logo_16x16.png",
+            "32": "extension-icons/website_blocker_logo_32x32.png",
+            "48": "extension-icons/website_blocker_logo_48x48.png",
+            "128": "extension-icons/website_blocker_logo_128x128.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
