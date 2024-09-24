@@ -29,7 +29,6 @@ chrome.webNavigation.onBeforeNavigate.addListener(
 );
  
 
-
 setInterval(function() {
    chrome.storage.sync.get(["blocked_websites"]).then(function(result) {
       let data = result.blocked_websites;

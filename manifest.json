@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Website Blocker",
-    "description": "blocks websites",
+    "description": "Blocks websites",
     "version": "1.0",
 
     "permissions": [

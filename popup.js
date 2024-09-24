@@ -46,7 +46,6 @@ function blockWebsite(block_duration) {
                 status_display.text(display_text);
 
                 if (!$("#refresh-btn").length) {
-                    // testing
                     $("#refresh-button-place-holder").append("<button id='refresh-btn'>Refresh</button>")
                     $("body").css({"height": "340px"})
                 }
